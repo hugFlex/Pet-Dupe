@@ -17,7 +17,5 @@ else
     return;
 end
 if lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], dupeKey) then
-    lib.Message.New("Dupe successfully! please rejoin");
-else
-    lib.Message.New("Dupe failure :( please try again");
+    lib.Message.New("Dupe successfully! wait 10 sec");
 end;
